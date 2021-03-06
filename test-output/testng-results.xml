@@ -1,0 +1,334 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="13" passed="13" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-03-04T18:47:40 EST" name="Suite" finished-at="2021-03-04T18:48:12 EST" duration-ms="31079">
+    <groups>
+    </groups>
+    <test started-at="2021-03-04T18:47:40 EST" name="Test" finished-at="2021-03-04T18:48:12 EST" duration-ms="31079">
+      <class name="test.RegisterTest">
+        <test-method is-config="true" signature="openingBrowser()[pri:0, instance:test.RegisterTest@46cdf8bd]" started-at="2021-03-04T18:47:38 EST" name="openingBrowser" finished-at="2021-03-04T18:47:40 EST" duration-ms="2031" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openingBrowser -->
+        <test-method is-config="true" signature="applicationURL(java.lang.reflect.Method)[pri:0, instance:test.RegisterTest@46cdf8bd]" started-at="2021-03-04T18:48:03 EST" name="applicationURL" finished-at="2021-03-04T18:48:05 EST" duration-ms="1586" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.RegisterTest.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationURL -->
+        <test-method signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@46cdf8bd]" started-at="2021-03-04T18:48:05 EST" name="register" data-provider="registerTest" finished-at="2021-03-04T18:48:06 EST" duration-ms="1682" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sooraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Narayanan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 st]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6545433456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[APIs]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="applicationURL(java.lang.reflect.Method)[pri:0, instance:test.RegisterTest@46cdf8bd]" started-at="2021-03-04T18:48:06 EST" name="applicationURL" finished-at="2021-03-04T18:48:07 EST" duration-ms="844" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.RegisterTest.register(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- applicationURL -->
+        <test-method signature="register(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.RegisterTest@46cdf8bd]" started-at="2021-03-04T18:48:07 EST" name="register" data-provider="registerTest" finished-at="2021-03-04T18:48:09 EST" duration-ms="1562" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Sooraj]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Narayanan]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[123 st]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[abc@gmail.com]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[6545433456]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[APIs]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[2015]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[May]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[1234]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+      </class> <!-- test.RegisterTest -->
+      <class name="test.FramesTest">
+        <test-method is-config="true" signature="url(java.lang.reflect.Method)[pri:0, instance:test.FramesTest@740cae06]" started-at="2021-03-04T18:48:09 EST" name="url" finished-at="2021-03-04T18:48:11 EST" duration-ms="2196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.FramesTest.framesTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method signature="framesTest()[pri:0, instance:test.FramesTest@740cae06]" started-at="2021-03-04T18:48:11 EST" name="framesTest" finished-at="2021-03-04T18:48:12 EST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- framesTest -->
+        <test-method is-config="true" signature="generateReport()[pri:0, instance:test.FramesTest@740cae06]" started-at="2021-03-04T18:48:12 EST" name="generateReport" finished-at="2021-03-04T18:48:12 EST" duration-ms="658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.FramesTest -->
+      <class name="test.AlertsTest">
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:40 EST" name="passingUrl" finished-at="2021-03-04T18:47:43 EST" duration-ms="2816" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:43 EST" name="alertsTest" finished-at="2021-03-04T18:47:44 EST" duration-ms="883" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:44 EST" name="passingUrl" finished-at="2021-03-04T18:47:47 EST" duration-ms="2414" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:47 EST" name="alertsTest" finished-at="2021-03-04T18:47:47 EST" duration-ms="738" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:47 EST" name="passingUrl" finished-at="2021-03-04T18:47:49 EST" duration-ms="1379" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:49 EST" name="alertsTest" finished-at="2021-03-04T18:47:49 EST" duration-ms="652" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:49 EST" name="passingUrl" finished-at="2021-03-04T18:47:50 EST" duration-ms="1065" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:50 EST" name="alertsTest" finished-at="2021-03-04T18:47:51 EST" duration-ms="750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:51 EST" name="passingUrl" finished-at="2021-03-04T18:47:52 EST" duration-ms="1042" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:52 EST" name="alertsTest" finished-at="2021-03-04T18:47:53 EST" duration-ms="715" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:53 EST" name="passingUrl" finished-at="2021-03-04T18:47:54 EST" duration-ms="1024" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:54 EST" name="alertsTest" finished-at="2021-03-04T18:47:55 EST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:55 EST" name="passingUrl" finished-at="2021-03-04T18:47:56 EST" duration-ms="1451" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:56 EST" name="alertsTest" finished-at="2021-03-04T18:47:57 EST" duration-ms="708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:57 EST" name="passingUrl" finished-at="2021-03-04T18:47:58 EST" duration-ms="1333" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:58 EST" name="alertsTest" finished-at="2021-03-04T18:47:59 EST" duration-ms="864" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:47:59 EST" name="passingUrl" finished-at="2021-03-04T18:48:00 EST" duration-ms="1103" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:48:00 EST" name="alertsTest" finished-at="2021-03-04T18:48:01 EST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+        <test-method is-config="true" signature="passingUrl(java.lang.reflect.Method)[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:48:01 EST" name="passingUrl" finished-at="2021-03-04T18:48:02 EST" duration-ms="1278" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.AlertsTest.alertsTest()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- passingUrl -->
+        <test-method signature="alertsTest()[pri:0, instance:test.AlertsTest@f0c8a99]" started-at="2021-03-04T18:48:02 EST" name="alertsTest" finished-at="2021-03-04T18:48:03 EST" duration-ms="805" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- alertsTest -->
+      </class> <!-- test.AlertsTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

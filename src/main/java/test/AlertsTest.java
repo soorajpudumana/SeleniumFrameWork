@@ -26,7 +26,7 @@ public void passingUrl(Method method) {
 	ReportConfig.logger = ReportConfig.report.createTest(method.getName());
 }
 
-@Test(invocationCount = 10,enabled = true)
+@Test(invocationCount = 7,enabled = true)
 public void alertsTest() {
 	alertsPageLib = new AlertsPageLib();
 	alertsPageLib.alertPages();

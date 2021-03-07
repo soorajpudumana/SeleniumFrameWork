@@ -4,6 +4,7 @@ import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import java.lang.reflect.Method;
+import java.net.MalformedURLException;
 
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
@@ -19,7 +20,7 @@ public class RegisterTest {
 RegisterPageLib registerPageLib;
 
 @BeforeSuite
-public void openingBrowser() {
+public void openingBrowser() throws MalformedURLException {
 	DriverUtility.openingBrowser("chrome");
 	registerPageLib= new RegisterPageLib();
 }

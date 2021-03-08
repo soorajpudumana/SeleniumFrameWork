@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/">
+   <SOAP-ENV:Header />
+   <soapenv:Body>
+      <ns2:RequestMsg xmlns:ns2="http://soap.rof.hns">
+         <ns2:MSG_HEADER>
+            <ns2:KeyValueMap KEY="TransactionID">TEST-126</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="TransactionDateTime">09/16/2016 15:09:56</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="MessageCode">UPD-SAN</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="SourceSystem">EIT</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="DestinationSystem">IP</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="Operator">EIT</ns2:KeyValueMap>
+         </ns2:MSG_HEADER>
+         <ns2:REQUEST_CONTENT>
+            <ns2:KeyValueMap KEY="T_TRANS_SEQ_ID">T1aeewr1</ns2:KeyValueMap>    
+            <ns2:KeyValueMap KEY="backupNapWanGatewayIp" />
+            <ns2:KeyValueMap KEY="backupNapWanIp" />
+            <ns2:KeyValueMap KEY="backupNapWanProtocol" />
+            <ns2:KeyValueMap KEY="backupNapWanSubnetMask" />
+            <ns2:KeyValueMap KEY="carrier">123323DEG43669D2</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="channelid">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="devicegroup" />
+            <ns2:KeyValueMap KEY="deviceid">PX801706D</ns2:KeyValueMap>     
+            <ns2:KeyValueMap KEY="configurationcomplete">true</ns2:KeyValueMap>  
+            <ns2:KeyValueMap KEY="fapplanid">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="hdevname">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="hrgwwanip">NuLL</ns2:KeyValueMap>     
+            <ns2:KeyValueMap KEY="imei">NuLL</ns2:KeyValueMap>    
+            <ns2:KeyValueMap KEY="lan1ipaddress">10.2.135.229</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="lan1natip">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="lan1natsubnet">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="lan1subnetmask">255.255.255.254</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="lan2ipaddress" />
+            <ns2:KeyValueMap KEY="lan2subnetmask" />
+            <ns2:KeyValueMap KEY="lan3ipaddress" />
+            <ns2:KeyValueMap KEY="lan3subnetmask" />
+            <ns2:KeyValueMap KEY="managementip">10.106.251.125</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="mdn">mdn</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="model">HR4700</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="napWanGatewayIp">DHCP</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="napWanIp">DHCP</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="napWanProtocol">ExternalDHCP</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="napWanSubnetMask">DHCP</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="napppppassword" />
+            <ns2:KeyValueMap KEY="nappppusername" />
+            <ns2:KeyValueMap KEY="natip">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="NATSUBNETMASK">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="nprip">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="nprsubnetmask">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="pepmaxdownstream">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="pepmaxupstream">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="profilegroup">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="routerMac">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="satelliteid">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="serialnumber">78956</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="softwareversion">C890-UNIVERSALK9-M-15.3(2)T</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="transponder">NuLL</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="vadbbackupphonenumber" />
+            <ns2:KeyValueMap KEY="vadbenable" />
+            <ns2:KeyValueMap KEY="vadbprimaryphonenumber" />
+            <ns2:KeyValueMap KEY="vendor">cisco</ns2:KeyValueMap>
+            <ns2:KeyValueMap KEY="vpgw">NuLL</ns2:KeyValueMap>
+         </ns2:REQUEST_CONTENT>
+      
+      </ns2:RequestMsg>
+   </soapenv:Body>
+</soapenv:Envelope>
